@@ -1,6 +1,6 @@
 # Windward
 
-TODO: Write a gem description
+Windward is a parser for http://meteofrance.com/accuei
 
 ## Installation
 
@@ -18,7 +18,29 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+### Instantiate a Weather object
+When a Weather object is instantiate, a request is sent to meteofrance.com and weather informations are stored.
+
+	require 'windward'
+	weather = Windward::Weather.new
+
+### Reload Weather informations
+
+    weather.reload
+
+### List availables regions
+
+	weather.regions
+
+### Get actual weather for a specific region
+
+	weather.previsions("Alsace")
+	=> {"Rhin (Bas)"=>{"temps"=>"Pluies éparses", "temper"=>"5"}}
+
+This method returns a Hash with weather informations for each department of specified region. 
+Some regions have 3 departments like "Provence-Alpes-Côte d'Azur".
+
+###
 
 ## Contributing
 
