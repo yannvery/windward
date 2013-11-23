@@ -1,6 +1,6 @@
 # Windward
 
-Windward is a parser for http://meteofrance.com/accuei
+Windward is a parser for http://meteofrance.com/accueil
 
 ## Installation
 
