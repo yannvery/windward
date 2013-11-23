@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<regions>
+    <province>
+        <id_departement>1</id_departement>
+        <id_region>22</id_region>
+        <code>01</code>
+        <name_province>Ain</name_province>
+        <name_province_uppercase>AIN</name_province_uppercase>
+        <province_slug>ain</province_slug>
+    </province>
+    <province>
+        <id_departement>2</id_departement>
+        <id_region>19</id_region>
+        <code>02</code>
+        <name_province>Aisne</name_province>
+        <name_province_uppercase>AISNE</name_province_uppercase>
+        <province_slug>aisne</province_slug>
+    </province>
+    <province>
+        <id_departement>3</id_departement>
+        <id_region>2</id_region>
+        <code>03</code>
+        <name_province>Allier</name_province>
+        <name_province_uppercase>ALLIER</name_province_uppercase>
+        <province_slug>allier</province_slug>
+    </province>
+    <province>
+        <id_departement>5</id_departement>
+        <id_region>21</id_region>
+        <code>05</code>
+        <name_province>Alpes (Hautes)</name_province>
+        <name_province_uppercase>ALPES (HAUTES)</name_province_uppercase>
+        <province_slug>alpes-hautes</province_slug>
+    </province>
+    <province>
+        <id_departement>6</id_departement>
+        <id_region>21</id_region>
+        <code>06</code>
+        <name_province>Alpes Maritimes</name_province>
+        <name_province_uppercase>ALPES MARITIMES</name_province_uppercase>
+        <province_slug>alpes-maritimes</province_slug>
+    </province>
+    <province>
+        <id_departement>7</id_departement>
+        <id_region>22</id_region>
+        <code>07</code>
+        <name_province>Ardéche</name_province>
+        <name_province_uppercase>ARDÉCHE</name_province_uppercase>
+        <province_slug>ardeche</province_slug>
+    </province>
+    <province>
+        <id_departement>8</id_departement>
+        <id_region>6</id_region>
+        <code>08</code>
+        <name_province>Ardennes</name_province>
+        <name_province_uppercase>ARDENNES</name_province_uppercase>
+        <province_slug>ardennes</province_slug>
+    </province>
+    <province>
+        <id_departement>9</id_departement>
+        <id_region>14</id_region>
+        <code>09</code>
+        <name_province> Ariége</name_province>
+        <name_province_uppercase> ARIÉGE</name_province_uppercase>
+        <province_slug>-ariege</province_slug>
+    </province>
+    <province>
+        <id_departement>10</id_departement>
+        <id_region>6</id_region>
+        <code>10</code>
+        <name_province>Aube</name_province>
+        <name_province_uppercase>AUBE</name_province_uppercase>
+        <province_slug>aube</province_slug>
+    </province>
+    <province>
+        <id_departement>11</id_departement>
+        <id_region>11</id_region>
+        <code>11</code>
+        <name_province>Aude</name_province>
+        <name_province_uppercase>AUDE</name_province_uppercase>
+        <province_slug>aude</province_slug>
+    </province>
+    <province>
+        <id_departement>12</id_departement>
+        <id_region>14</id_region>
+        <code>12</code>
+        <name_province>Aveyron</name_province>
+        <name_province_uppercase>AVEYRON</name_province_uppercase>
+        <province_slug>aveyron</province_slug>
+    </province>
+    <province>
+        <id_departement>13</id_departement>
+        <id_region>21</id_region>
+        <code>13</code>
+        <name_province>Bouches du Rhône</name_province>
+        <name_province_uppercase>BOUCHES DU RHÔNE</name_province_uppercase>
+        <province_slug>bouches-du-rhone</province_slug>
+    </province>
+    <province>
+        <id_departement>14</id_departement>
+        <id_region>24</id_region>
+        <code>14</code>
+        <name_province>Calvados</name_province>
+        <name_province_uppercase>CALVADOS</name_province_uppercase>
+        <province_slug>calvados</province_slug>
+    </province>
+    <province>
+        <id_departement>15</id_departement>
+        <id_region>2</id_region>
+        <code>15</code>
+        <name_province>Cantal</name_province>
+        <name_province_uppercase>CANTAL</name_province_uppercase>
+        <province_slug>cantal</province_slug>
+    </province>
+    <province>
+        <id_departement>16</id_departement>
+        <id_region>20</id_region>
+        <code>16</code>
+        <name_province>Charente</name_province>
+        <name_province_uppercase>CHARENTE</name_province_uppercase>
+        <province_slug>charente</province_slug>
+    </province>
+    <province>
+        <id_departement>17</id_departement>
+        <id_region>20</id_region>
+        <code>17</code>
+        <name_province>Charente Maritime</name_province>
+        <name_province_uppercase>CHARENTE MARITIME</name_province_uppercase>
+        <province_slug>charente-maritime</province_slug>
+    </province>
+    <province>
+        <id_departement>18</id_departement>
+        <id_region>5</id_region>
+        <code>18</code>
+        <name_province>Cher</name_province>
+        <name_province_uppercase>CHER</name_province_uppercase>
+        <province_slug>cher</province_slug>
+    </province>
+    <province>
+        <id_departement>19</id_departement>
+        <id_region>12</id_region>
+        <code>19</code>
+        <name_province>Corréze</name_province>
+        <name_province_uppercase>CORRÉZE</name_province_uppercase>
+        <province_slug>correze</province_slug>
+    </province>
+    <province>
+        <id_departement>21</id_departement>
+        <id_region>12</id_region>
+        <code>23</code>
+        <name_province>Creuse </name_province>
+        <name_province_uppercase>CREUSE </name_province_uppercase>
+        <province_slug>creuse-</province_slug>
+    </province>
+    <province>
+        <id_departement>22</id_departement>
+        <id_region>1</id_region>
+        <code>24</code>
+        <name_province>Dordogne</name_province>
+        <name_province_uppercase>DORDOGNE</name_province_uppercase>
+        <province_slug>dordogne</province_slug>
+    </province>
+    <province>
+        <id_departement>23</id_departement>
+        <id_region>9</id_region>
+        <code>25</code>
+        <name_province>Doubs</name_province>
+        <name_province_uppercase>DOUBS</name_province_uppercase>
+        <province_slug>doubs</province_slug>
+    </province>
+    <province>
+        <id_departement>24</id_departement>
+        <id_region>22</id_region>
+        <code>26</code>
+        <name_province>Drôme</name_province>
+        <name_province_uppercase>DRÔME</name_province_uppercase>
+        <province_slug>drome</province_slug>
+    </province>
+    <province>
+        <id_departement>25</id_departement>
+        <id_region>17</id_region>
+        <code>27</code>
+        <name_province>Eure</name_province>
+        <name_province_uppercase>EURE</name_province_uppercase>
+        <province_slug>eure</province_slug>
+    </province>
+    <province>
+        <id_departement>26</id_departement>
+        <id_region>5</id_region>
+        <code>28</code>
+        <name_province>Eure et Loir</name_province>
+        <name_province_uppercase>EURE ET LOIR</name_province_uppercase>
+        <province_slug>eure-et-loir</province_slug>
+    </province>
+    <province>
+        <id_departement>27</id_departement>
+        <id_region>4</id_region>
+        <code>29</code>
+        <name_province>Finistére</name_province>
+        <name_province_uppercase>FINISTÉRE</name_province_uppercase>
+        <province_slug>finistere</province_slug>
+    </province>
+    <province>
+        <id_departement>28</id_departement>
+        <id_region>11</id_region>
+        <code>30</code>
+        <name_province>Gard</name_province>
+        <name_province_uppercase>GARD</name_province_uppercase>
+        <province_slug>gard</province_slug>
+    </province>
+    <province>
+        <id_departement>29</id_departement>
+        <id_region>14</id_region>
+        <code>31</code>
+        <name_province>Garonne (Haute)</name_province>
+        <name_province_uppercase>GARONNE (HAUTE)</name_province_uppercase>
+        <province_slug>garonne-haute</province_slug>
+    </province>
+    <province>
+        <id_departement>30</id_departement>
+        <id_region>14</id_region>
+        <code>32</code>
+        <name_province>Gers</name_province>
+        <name_province_uppercase>GERS</name_province_uppercase>
+        <province_slug>gers</province_slug>
+    </province>
+    <province>
+        <id_departement>31</id_departement>
+        <id_region>1</id_region>
+        <code>33</code>
+        <name_province>Gironde</name_province>
+        <name_province_uppercase>GIRONDE</name_province_uppercase>
+        <province_slug>gironde</province_slug>
+    </province>
+    <province>
+        <id_departement>32</id_departement>
+        <id_region>11</id_region>
+        <code>34</code>
+        <name_province>Hérault</name_province>
+        <name_province_uppercase>HÉRAULT</name_province_uppercase>
+        <province_slug>herault</province_slug>
+    </province>
+    <province>
+        <id_departement>33</id_departement>
+        <id_region>4</id_region>
+        <code>35</code>
+        <name_province>Ile et Vilaine</name_province>
+        <name_province_uppercase>ILE ET VILAINE</name_province_uppercase>
+        <province_slug>ile-et-vilaine</province_slug>
+    </province>
+    <province>
+        <id_departement>34</id_departement>
+        <id_region>5</id_region>
+        <code>36</code>
+        <name_province>Indre</name_province>
+        <name_province_uppercase>INDRE</name_province_uppercase>
+        <province_slug>indre</province_slug>
+    </province>
+    <province>
+        <id_departement>35</id_departement>
+        <id_region>5</id_region>
+        <code>37</code>
+        <name_province>Indre et Loire</name_province>
+        <name_province_uppercase>INDRE ET LOIRE</name_province_uppercase>
+        <province_slug>indre-et-loire</province_slug>
+    </province>
+    <province>
+        <id_departement>36</id_departement>
+        <id_region>22</id_region>
+        <code>38</code>
+        <name_province>Isére</name_province>
+        <name_province_uppercase>ISÉRE</name_province_uppercase>
+        <province_slug>isere</province_slug>
+    </province>
+    <province>
+        <id_departement>37</id_departement>
+        <id_region>9</id_region>
+        <code>39</code>
+        <name_province>Jura</name_province>
+        <name_province_uppercase>JURA</name_province_uppercase>
+        <province_slug>jura</province_slug>
+    </province>
+    <province>
+        <id_departement>38</id_departement>
+        <id_region>1</id_region>
+        <code>40</code>
+        <name_province>Landes</name_province>
+        <name_province_uppercase>LANDES</name_province_uppercase>
+        <province_slug>landes</province_slug>
+    </province>
+    <province>
+        <id_departement>39</id_departement>
+        <id_region>5</id_region>
+        <code>41</code>
+        <name_province>Loir et Cher</name_province>
+        <name_province_uppercase>LOIR ET CHER</name_province_uppercase>
+        <province_slug>loir-et-cher</province_slug>
+    </province>
+    <province>
+        <id_departement>40</id_departement>
+        <id_region>22</id_region>
+        <code>42</code>
+        <name_province>Loire</name_province>
+        <name_province_uppercase>LOIRE</name_province_uppercase>
+        <province_slug>loire</province_slug>
+    </province>
+    <province>
+        <id_departement>41</id_departement>
+        <id_region>2</id_region>
+        <code>43</code>
+        <name_province>Loire (Haute)</name_province>
+        <name_province_uppercase>LOIRE (HAUTE)</name_province_uppercase>
+        <province_slug>loire-haute</province_slug>
+    </province>
+    <province>
+        <id_departement>42</id_departement>
+        <id_region>18</id_region>
+        <code>44</code>
+        <name_province>Loire Atlantique</name_province>
+        <name_province_uppercase>LOIRE ATLANTIQUE</name_province_uppercase>
+        <province_slug>loire-atlantique</province_slug>
+    </province>
+    <province>
+        <id_departement>43</id_departement>
+        <id_region>5</id_region>
+        <code>45</code>
+        <name_province>Loiret</name_province>
+        <name_province_uppercase>LOIRET</name_province_uppercase>
+        <province_slug>loiret</province_slug>
+    </province>
+    <province>
+        <id_departement>44</id_departement>
+        <id_region>14</id_region>
+        <code>46</code>
+        <name_province>Lot</name_province>
+        <name_province_uppercase>LOT</name_province_uppercase>
+        <province_slug>lot</province_slug>
+    </province>
+    <province>
+        <id_departement>45</id_departement>
+        <id_region>1</id_region>
+        <code>47</code>
+        <name_province>Lot et Garonne</name_province>
+        <name_province_uppercase>LOT ET GARONNE</name_province_uppercase>
+        <province_slug>lot-et-garonne</province_slug>
+    </province>
+    <province>
+        <id_departement>46</id_departement>
+        <id_region>11</id_region>
+        <code>48</code>
+        <name_province>Lozére</name_province>
+        <name_province_uppercase>LOZÉRE</name_province_uppercase>
+        <province_slug>lozere</province_slug>
+    </province>
+    <province>
+        <id_departement>47</id_departement>
+        <id_region>18</id_region>
+        <code>49</code>
+        <name_province>Maine et Loire</name_province>
+        <name_province_uppercase>MAINE ET LOIRE</name_province_uppercase>
+        <province_slug>maine-et-loire</province_slug>
+    </province>
+    <province>
+        <id_departement>48</id_departement>
+        <id_region>24</id_region>
+        <code>50</code>
+        <name_province>Manche</name_province>
+        <name_province_uppercase>MANCHE</name_province_uppercase>
+        <province_slug>manche</province_slug>
+    </province>
+    <province>
+        <id_departement>49</id_departement>
+        <id_region>6</id_region>
+        <code>51</code>
+        <name_province>Marne</name_province>
+        <name_province_uppercase>MARNE</name_province_uppercase>
+        <province_slug>marne</province_slug>
+    </province>
+    <province>
+        <id_departement>50</id_departement>
+        <id_region>6</id_region>
+        <code>52</code>
+        <name_province>Marne (Haute)</name_province>
+        <name_province_uppercase>MARNE (HAUTE)</name_province_uppercase>
+        <province_slug>marne-haute</province_slug>
+    </province>
+    <province>
+        <id_departement>51</id_departement>
+        <id_region>18</id_region>
+        <code>53</code>
+        <name_province>Mayenne</name_province>
+        <name_province_uppercase>MAYENNE</name_province_uppercase>
+        <province_slug>mayenne</province_slug>
+    </province>
+    <province>
+        <id_departement>52</id_departement>
+        <id_region>13</id_region>
+        <code>54</code>
+        <name_province>Meurthe et Moselle</name_province>
+        <name_province_uppercase>MEURTHE ET MOSELLE</name_province_uppercase>
+        <province_slug>meurthe-et-moselle</province_slug>
+    </province>
+    <province>
+        <id_departement>53</id_departement>
+        <id_region>13</id_region>
+        <code>55</code>
+        <name_province>Meuse</name_province>
+        <name_province_uppercase>MEUSE</name_province_uppercase>
+        <province_slug>meuse</province_slug>
+    </province>
+    <province>
+        <id_departement>54</id_departement>
+        <id_region>4</id_region>
+        <code>56</code>
+        <name_province>Morbihan</name_province>
+        <name_province_uppercase>MORBIHAN</name_province_uppercase>
+        <province_slug>morbihan</province_slug>
+    </province>
+    <province>
+        <id_departement>55</id_departement>
+        <id_region>13</id_region>
+        <code>57</code>
+        <name_province>Moselle</name_province>
+        <name_province_uppercase>MOSELLE</name_province_uppercase>
+        <province_slug>moselle</province_slug>
+    </province>
+    <province>
+        <id_departement>56</id_departement>
+        <id_region>3</id_region>
+        <code>58</code>
+        <name_province>Niévre</name_province>
+        <name_province_uppercase>NIÉVRE</name_province_uppercase>
+        <province_slug>nievre</province_slug>
+    </province>
+    <province>
+        <id_departement>57</id_departement>
+        <id_region>15</id_region>
+        <code>59</code>
+        <name_province>Nord</name_province>
+        <name_province_uppercase>NORD</name_province_uppercase>
+        <province_slug>nord</province_slug>
+    </province>
+    <province>
+        <id_departement>58</id_departement>
+        <id_region>19</id_region>
+        <code>60</code>
+        <name_province>Oise</name_province>
+        <name_province_uppercase>OISE</name_province_uppercase>
+        <province_slug>oise</province_slug>
+    </province>
+    <province>
+        <id_departement>59</id_departement>
+        <id_region>24</id_region>
+        <code>61</code>
+        <name_province>Orne</name_province>
+        <name_province_uppercase>ORNE</name_province_uppercase>
+        <province_slug>orne</province_slug>
+    </province>
+    <province>
+        <id_departement>60</id_departement>
+        <id_region>15</id_region>
+        <code>62</code>
+        <name_province>Pas de Calais</name_province>
+        <name_province_uppercase>PAS DE CALAIS</name_province_uppercase>
+        <province_slug>pas-de-calais</province_slug>
+    </province>
+    <province>
+        <id_departement>61</id_departement>
+        <id_region>2</id_region>
+        <code>63</code>
+        <name_province>Puy de Dôme</name_province>
+        <name_province_uppercase>PUY DE DÔME</name_province_uppercase>
+        <province_slug>puy-de-dome</province_slug>
+    </province>
+    <province>
+        <id_departement>62</id_departement>
+        <id_region>1</id_region>
+        <code>64</code>
+        <name_province>Pyrénées Atlantiques</name_province>
+        <name_province_uppercase>PYRÉNÉES ATLANTIQUES</name_province_uppercase>
+        <province_slug>pyrenees-atlantiques</province_slug>
+    </province>
+    <province>
+        <id_departement>63</id_departement>
+        <id_region>14</id_region>
+        <code>65</code>
+        <name_province>Pyrénées (Hautes)</name_province>
+        <name_province_uppercase>PYRÉNÉES (HAUTES)</name_province_uppercase>
+        <province_slug>pyrenees-hautes</province_slug>
+    </province>
+    <province>
+        <id_departement>64</id_departement>
+        <id_region>11</id_region>
+        <code>66</code>
+        <name_province>Pyrénées Orientales</name_province>
+        <name_province_uppercase>PYRÉNÉES ORIENTALES</name_province_uppercase>
+        <province_slug>pyrenees-orientales</province_slug>
+    </province>
+    <province>
+        <id_departement>65</id_departement>
+        <id_region>23</id_region>
+        <code>67</code>
+        <name_province>Rhin (Bas)</name_province>
+        <name_province_uppercase>RHIN (BAS)</name_province_uppercase>
+        <province_slug>rhin-bas</province_slug>
+    </province>
+    <province>
+        <id_departement>66</id_departement>
+        <id_region>23</id_region>
+        <code>68</code>
+        <name_province>Rhin (Haut)</name_province>
+        <name_province_uppercase>RHIN (HAUT)</name_province_uppercase>
+        <province_slug>rhin-haut</province_slug>
+    </province>
+    <province>
+        <id_departement>67</id_departement>
+        <id_region>22</id_region>
+        <code>69</code>
+        <name_province>Rhône</name_province>
+        <name_province_uppercase>RHÔNE</name_province_uppercase>
+        <province_slug>rhone</province_slug>
+    </province>
+    <province>
+        <id_departement>68</id_departement>
+        <id_region>9</id_region>
+        <code>70</code>
+        <name_province>Saône (Haute)</name_province>
+        <name_province_uppercase>SAÔNE (HAUTE)</name_province_uppercase>
+        <province_slug>saone-haute</province_slug>
+    </province>
+    <province>
+        <id_departement>69</id_departement>
+        <id_region>3</id_region>
+        <code>71</code>
+        <name_province>Saône et Loire</name_province>
+        <name_province_uppercase>SAÔNE ET LOIRE</name_province_uppercase>
+        <province_slug>saone-et-loire</province_slug>
+    </province>
+    <province>
+        <id_departement>70</id_departement>
+        <id_region>18</id_region>
+        <code>72</code>
+        <name_province>Sarthe</name_province>
+        <name_province_uppercase>SARTHE</name_province_uppercase>
+        <province_slug>sarthe</province_slug>
+    </province>
+    <province>
+        <id_departement>71</id_departement>
+        <id_region>22</id_region>
+        <code>73</code>
+        <name_province>Savoie</name_province>
+        <name_province_uppercase>SAVOIE</name_province_uppercase>
+        <province_slug>savoie</province_slug>
+    </province>
+    <province>
+        <id_departement>72</id_departement>
+        <id_region>22</id_region>
+        <code>74</code>
+        <name_province>Savoie (Haute)</name_province>
+        <name_province_uppercase>SAVOIE (HAUTE)</name_province_uppercase>
+        <province_slug>savoie-haute</province_slug>
+    </province>
+    <province>
+        <id_departement>73</id_departement>
+        <id_region>10</id_region>
+        <code>75</code>
+        <name_province>Paris</name_province>
+        <name_province_uppercase>PARIS</name_province_uppercase>
+        <province_slug>paris</province_slug>
+    </province>
+    <province>
+        <id_departement>74</id_departement>
+        <id_region>17</id_region>
+        <code>76</code>
+        <name_province>Seine Maritime</name_province>
+        <name_province_uppercase>SEINE MARITIME</name_province_uppercase>
+        <province_slug>seine-maritime</province_slug>
+    </province>
+    <province>
+        <id_departement>75</id_departement>
+        <id_region>10</id_region>
+        <code>77</code>
+        <name_province>Seine et Marne</name_province>
+        <name_province_uppercase>SEINE ET MARNE</name_province_uppercase>
+        <province_slug>seine-et-marne</province_slug>
+    </province>
+    <province>
+        <id_departement>76</id_departement>
+        <id_region>10</id_region>
+        <code>78</code>
+        <name_province>Yvelines</name_province>
+        <name_province_uppercase>YVELINES</name_province_uppercase>
+        <province_slug>yvelines</province_slug>
+    </province>
+    <province>
+        <id_departement>77</id_departement>
+        <id_region>20</id_region>
+        <code>79</code>
+        <name_province>Sèvres (Deux)</name_province>
+        <name_province_uppercase>SÈVRES (DEUX)</name_province_uppercase>
+        <province_slug>sevres-deux</province_slug>
+    </province>
+    <province>
+        <id_departement>78</id_departement>
+        <id_region>19</id_region>
+        <code>80</code>
+        <name_province>Somme</name_province>
+        <name_province_uppercase>SOMME</name_province_uppercase>
+        <province_slug>somme</province_slug>
+    </province>
+    <province>
+        <id_departement>79</id_departement>
+        <id_region>14</id_region>
+        <code>81</code>
+        <name_province>Tarn</name_province>
+        <name_province_uppercase>TARN</name_province_uppercase>
+        <province_slug>tarn</province_slug>
+    </province>
+    <province>
+        <id_departement>80</id_departement>
+        <id_region>14</id_region>
+        <code>82</code>
+        <name_province>Tarn et Garonne</name_province>
+        <name_province_uppercase>TARN ET GARONNE</name_province_uppercase>
+        <province_slug>tarn-et-garonne</province_slug>
+    </province>
+    <province>
+        <id_departement>81</id_departement>
+        <id_region>21</id_region>
+        <code>83</code>
+        <name_province>Var</name_province>
+        <name_province_uppercase>VAR</name_province_uppercase>
+        <province_slug>var</province_slug>
+    </province>
+    <province>
+        <id_departement>82</id_departement>
+        <id_region>21</id_region>
+        <code>84</code>
+        <name_province>Vaucluse</name_province>
+        <name_province_uppercase>VAUCLUSE</name_province_uppercase>
+        <province_slug>vaucluse</province_slug>
+    </province>
+    <province>
+        <id_departement>83</id_departement>
+        <id_region>18</id_region>
+        <code>85</code>
+        <name_province>Vendée</name_province>
+        <name_province_uppercase>VENDÉE</name_province_uppercase>
+        <province_slug>vendee</province_slug>
+    </province>
+    <province>
+        <id_departement>84</id_departement>
+        <id_region>20</id_region>
+        <code>86</code>
+        <name_province>Vienne</name_province>
+        <name_province_uppercase>VIENNE</name_province_uppercase>
+        <province_slug>vienne</province_slug>
+    </province>
+    <province>
+        <id_departement>85</id_departement>
+        <id_region>12</id_region>
+        <code>87</code>
+        <name_province>Vienne (Haute)</name_province>
+        <name_province_uppercase>VIENNE (HAUTE)</name_province_uppercase>
+        <province_slug>vienne-haute</province_slug>
+    </province>
+    <province>
+        <id_departement>86</id_departement>
+        <id_region>13</id_region>
+        <code>88</code>
+        <name_province>Vosges</name_province>
+        <name_province_uppercase>VOSGES</name_province_uppercase>
+        <province_slug>vosges</province_slug>
+    </province>
+    <province>
+        <id_departement>87</id_departement>
+        <id_region>3</id_region>
+        <code>89</code>
+        <name_province>Yonne</name_province>
+        <name_province_uppercase>YONNE</name_province_uppercase>
+        <province_slug>yonne</province_slug>
+    </province>
+    <province>
+        <id_departement>88</id_departement>
+        <id_region>9</id_region>
+        <code>90</code>
+        <name_province>Belfort (Territoire de)</name_province>
+        <name_province_uppercase>BELFORT (TERRITOIRE DE)</name_province_uppercase>
+        <province_slug>belfort-territoire-de</province_slug>
+    </province>
+    <province>
+        <id_departement>89</id_departement>
+        <id_region>10</id_region>
+        <code>91</code>
+        <name_province>Essonne</name_province>
+        <name_province_uppercase>ESSONNE</name_province_uppercase>
+        <province_slug>essonne</province_slug>
+    </province>
+    <province>
+        <id_departement>90</id_departement>
+        <id_region>10</id_region>
+        <code>92</code>
+        <name_province>Hauts de Seine</name_province>
+        <name_province_uppercase>HAUTS DE SEINE</name_province_uppercase>
+        <province_slug>hauts-de-seine</province_slug>
+    </province>
+    <province>
+        <id_departement>91</id_departement>
+        <id_region>10</id_region>
+        <code>93</code>
+        <name_province>Seine Saint Denis</name_province>
+        <name_province_uppercase>SEINE SAINT DENIS</name_province_uppercase>
+        <province_slug>seine-saint-denis</province_slug>
+    </province>
+    <province>
+        <id_departement>92</id_departement>
+        <id_region>10</id_region>
+        <code>94</code>
+        <name_province>Val de Marne</name_province>
+        <name_province_uppercase>VAL DE MARNE</name_province_uppercase>
+        <province_slug>val-de-marne</province_slug>
+    </province>
+    <province>
+        <id_departement>93</id_departement>
+        <id_region>8</id_region>
+        <code>976</code>
+        <name_province>Mayotte</name_province>
+        <name_province_uppercase>MAYOTTE</name_province_uppercase>
+        <province_slug>mayotte</province_slug>
+    </province>
+    <province>
+        <id_departement>94</id_departement>
+        <id_region>8</id_region>
+        <code>971</code>
+        <name_province>Guadeloupe</name_province>
+        <name_province_uppercase>GUADELOUPE</name_province_uppercase>
+        <province_slug>guadeloupe</province_slug>
+    </province>
+    <province>
+        <id_departement>95</id_departement>
+        <id_region>8</id_region>
+        <code>973</code>
+        <name_province>Guyane</name_province>
+        <name_province_uppercase>GUYANE</name_province_uppercase>
+        <province_slug>guyane</province_slug>
+    </province>
+    <province>
+        <id_departement>96</id_departement>
+        <id_region>8</id_region>
+        <code>972</code>
+        <name_province>Martinique</name_province>
+        <name_province_uppercase>MARTINIQUE</name_province_uppercase>
+        <province_slug>martinique</province_slug>
+    </province>
+    <province>
+        <id_departement>97</id_departement>
+        <id_region>8</id_region>
+        <code>974</code>
+        <name_province>Réunion</name_province>
+        <name_province_uppercase>RÉUNION</name_province_uppercase>
+        <province_slug>reunion</province_slug>
+    </province>
+    <province>
+        <id_departement>98</id_departement>
+        <id_region>3</id_region>
+        <code>21</code>
+        <name_province>Côte d'or</name_province>
+        <name_province_uppercase>CÔTE D'OR</name_province_uppercase>
+        <province_slug>cote-dor</province_slug>
+    </province>
+    <province>
+        <id_departement>100</id_departement>
+        <id_region>4</id_region>
+        <code>22</code>
+        <name_province>Côtes d'armor</name_province>
+        <name_province_uppercase>CÔTES D'ARMOR</name_province_uppercase>
+        <province_slug>cotes-darmor</province_slug>
+    </province>
+    <province>
+        <id_departement>102</id_departement>
+        <id_region>7</id_region>
+        <code>2A</code>
+        <name_province>Corse du sud</name_province>
+        <name_province_uppercase>CORSE DU SUD</name_province_uppercase>
+        <province_slug>corse-du-sud</province_slug>
+    </province>
+    <province>
+        <id_departement>103</id_departement>
+        <id_region>7</id_region>
+        <code>2B</code>
+        <name_province>Haute corse</name_province>
+        <name_province_uppercase>HAUTE CORSE</name_province_uppercase>
+        <province_slug>haute-corse</province_slug>
+    </province>
+    <province>
+        <id_departement>104</id_departement>
+        <id_region>10</id_region>
+        <code>95</code>
+        <name_province>Val d'oise</name_province>
+        <name_province_uppercase>VAL D'OISE</name_province_uppercase>
+        <province_slug>val-doise</province_slug>
+    </province>
+</regions>
