@@ -9,7 +9,7 @@ module Windward
       @departments = departments
       @regions = load_data
     end
-
+    
     def regions
       @regions.keys
     end
@@ -26,9 +26,14 @@ module Windward
       @regions = load_data
     end
     
+    def self.root
+      File.expand_path('../..',__FILE__)
+    end
+    
     private
+      
     def departments
-      doc = Nokogiri::XML(open("./lib/data/regions.xml"))
+      doc = Nokogiri::XML(open(File.join Weather.root, "lib/data/regions.xml"))
       provinces = doc.root.xpath("province")
       departments = Hash.new
       provinces.each do |p|
