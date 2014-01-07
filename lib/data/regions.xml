@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<regions>
+<provinces>
     <province>
         <id_departement>1</id_departement>
         <id_region>22</id_region>
@@ -800,4 +800,4 @@
         <name_province_uppercase>VAL D'OISE</name_province_uppercase>
         <province_slug>val-doise</province_slug>
     </province>
-</regions>
+</provinces>
