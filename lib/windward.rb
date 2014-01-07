@@ -2,36 +2,37 @@ require "windward/version"
 require 'mechanize'
 
 module Windward
-  
+
   class Weather
 
     def initialize
       @departments = departments
+      @cities = cities
       @regions = load_data
     end
-    
+
     def regions
       @regions.keys
     end
-    
+
     def region(name)
       @regions[name]
     end
-    
+
     def previsions(name)
       @regions[name]["previsions"]
     end
-    
+
     def reload
       @regions = load_data
     end
-    
+
     def self.root
       File.expand_path('../..',__FILE__)
     end
-    
+
     private
-      
+
     def departments
       doc = Nokogiri::XML(open(File.join Weather.root, "lib/data/regions.xml"))
       provinces = doc.root.xpath("province")
@@ -41,7 +42,17 @@ module Windward
       end
       departments
     end
-    
+
+    def cities
+      doc = Nokogiri::XML(open(File.join Weather.root, "lib/data/cities.xml"))
+      data = doc.root.xpath("city")
+      cities = Hash.new
+      data.each do |p|
+        cities[p.at_xpath("zip_code").text] = p.at_xpath("name").text
+      end
+      cities
+    end
+
     def load_data
       a = Mechanize.new
       page = a.get('http://www.meteofrance.com/accueil')
@@ -63,13 +74,14 @@ module Windward
           temps = datum.css('span.picTemps').first.content.strip
           temper = datum.css('span.temper').first.content.strip
           department = @departments[datum['data-inseepp'][0..1]]
-          previsions[department] = {"temps" => temps, "temper" => temper}
+          city = @cities[datum['data-inseepp'][0..4]]
+          previsions[department] = {"temps" => temps, "temper" => temper, "city" => city}
         end
         regions[name] = regions[name].merge({"previsions" => previsions})
       end
       regions
     end
-    
+
   end
-  
+
 end
