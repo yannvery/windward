@@ -73,8 +73,8 @@ module Windward
         data.each do |datum|
           temps = datum.css('span.picTemps').first.content.strip
           temper = datum.css('span.temper').first.content.strip
-          department = @departments[datum['data-inseepp'][0..1]]
-          city = @cities[datum['data-inseepp'][0..4]]
+          department = @departments[datum['data-insee'][0..1]]
+          city = @cities[datum['data-insee'][0..4]]
           previsions[department] = {"temps" => temps, "temper" => temper, "city" => city}
         end
         regions[name] = regions[name].merge({"previsions" => previsions})
