@@ -71,7 +71,7 @@ module Windward
         data = page.parser.css("div##{values['value']}")
         previsions = Hash.new
         data.each do |datum|
-          temps = datum.css('span.picTemps').first.content.strip
+          temps = datum.css('span.picTemps').first.content.split(' - ').last.strip
           temper = datum.css('span.temper').first.content.strip
           department = @departments[datum['data-insee'][0..1]]
           city = @cities[datum['data-insee'][0..4]]
