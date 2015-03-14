@@ -1,5 +1,7 @@
 # Windward
 
+[![Build Status](https://travis-ci.org/yannvery/windward.svg?branch=master)](https://travis-ci.org/yannvery/windward)
+
 Windward is a parser for http://meteofrance.com/accueil
 
 ## Installation
@@ -37,7 +39,7 @@ When a Weather object is instantiate, a request is sent to meteofrance.com and w
 	weather.previsions("Alsace")
 	=> {"Rhin (Bas)"=>{"temps"=>"Pluies éparses", "temper"=>"5"}}
 
-This method returns a Hash with weather informations for each department of specified region. 
+This method returns a Hash with weather informations for each department of specified region.
 Some regions have 3 departments like "Provence-Alpes-Côte d'Azur".
 
 ###
