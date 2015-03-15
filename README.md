@@ -4,6 +4,7 @@
 [![Coverage Status](https://coveralls.io/repos/yannvery/windward/badge.svg)](https://coveralls.io/r/yannvery/windward)
 [![Gem Version](https://badge.fury.io/rb/windward.svg)](http://badge.fury.io/rb/windward)
 
+
 Windward is a parser for http://meteofrance.com/accueil
 
 ## Installation
