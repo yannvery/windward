@@ -34,23 +34,21 @@ module Windward
     private
 
     def departments
-      doc = Nokogiri::XML(open(File.join Weather.root, "lib/data/regions.xml"))
-      provinces = doc.root.xpath("province")
-      departments = Hash.new
-      provinces.each do |p|
-        departments[p.at_xpath("code").text] = p.at_xpath("name_province").text
-      end
-      departments
+      load_data_library({ file: "lib/data/regions.xml", root: "province", code: "code", name: "name_province" })
     end
 
     def cities
-      doc = Nokogiri::XML(open(File.join Weather.root, "lib/data/cities.xml"))
-      data = doc.root.xpath("city")
-      cities = Hash.new
-      data.each do |p|
-        cities[p.at_xpath("zip_code").text] = p.at_xpath("name").text
+      load_data_library({ file: "lib/data/cities.xml", root: "city", code: "zip_code", name: "name" })
+    end
+
+    def load_data_library options={ file: nil, root: nil, code: nil, name: nil }
+      doc = Nokogiri::XML(open(File.join Weather.root, options[:file]))
+      root_elements = doc.root.xpath(options[:root])
+      data = Hash.new
+      root_elements.each do |p|
+        data[p.at_xpath(options[:code]).text] = p.at_xpath(options[:name]).text
       end
-      cities
+      data
     end
 
     def load_data
