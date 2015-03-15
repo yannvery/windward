@@ -58,7 +58,7 @@ module Windward
     end
 
     # Return a hash that contains xml data file content
-    def load_data_library options = { file: nil, root: nil, code: nil, name: nil }
+    def load_data_library(options = { file: nil, root: nil, code: nil, name: nil })
       doc = Nokogiri::XML(open(File.join Weather.root, options[:file]))
       root_elements = doc.root.xpath(options[:root])
       data = Hash.new
@@ -77,7 +77,7 @@ module Windward
     end
 
     # Return a hash for each region like { 'Alsace' => {'slug' => 'alsace', 'value' => 'REGI42' } }
-    def parse_regions data
+    def parse_regions(data)
       regions = Hash.new
       data.css('option').each do |option|
         if  option['data-type'] == 'REG_FRANCE'
@@ -96,7 +96,7 @@ module Windward
     #     'previsions' => {'Rhin (Bas)' => {'temps'=>'Éclaircies', 'temper' => '10', 'city' => 'Strasbourg'}}
     #   }
     # }
-    def region_previsions data
+    def region_previsions(data)
       previsions = Hash.new
       data.each do |datum|
         temps = datum.css('span.picTemps').first.content.split(' - ').last.strip
