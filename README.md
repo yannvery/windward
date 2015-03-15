@@ -1,6 +1,7 @@
 # Windward
 
 [![Build Status](https://travis-ci.org/yannvery/windward.svg?branch=master)](https://travis-ci.org/yannvery/windward)
+[![Coverage Status](https://coveralls.io/repos/yannvery/windward/badge.svg)](https://coveralls.io/r/yannvery/windward)
 
 Windward is a parser for http://meteofrance.com/accueil
 
