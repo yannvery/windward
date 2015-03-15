@@ -3,6 +3,7 @@ require 'mechanize'
 
 module Windward
 
+  # Instantiate an object to get meteo france previsions
   class Weather
 
     def initialize
