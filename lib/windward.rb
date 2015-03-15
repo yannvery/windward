@@ -28,7 +28,7 @@ module Windward
     end
 
     def self.root
-      File.expand_path('../..',__FILE__)
+      File.expand_path('../..', __FILE__)
     end
 
     private
@@ -67,7 +67,7 @@ module Windward
           regions[name] = { "slug" => slug, "value" => value }
         end
       end
-      regions.each do |name,values|
+      regions.each do |name, values|
         data = page.parser.css("div##{values['value']}")
         previsions = Hash.new
         data.each do |datum|
