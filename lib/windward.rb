@@ -6,9 +6,9 @@ module Windward
   class Weather
 
     def initialize
-      @departments = departments
-      @cities = cities
-      @regions = load_data
+      @departments = load_departments_data
+      @cities = load_cities_data
+      @regions = load_regions_data
     end
 
     def regions
@@ -33,14 +33,31 @@ module Windward
 
     private
 
-    def departments
+    def load_departments_data
       load_data_library({ file: "lib/data/regions.xml", root: "province", code: "code", name: "name_province" })
     end
 
-    def cities
+    def load_cities_data
       load_data_library({ file: "lib/data/cities.xml", root: "city", code: "zip_code", name: "name" })
     end
 
+    def load_regions_data
+      # Get webpage
+      page = meteofrance_webpage
+      # Store regions data
+      data = page.parser.css('div.select-region')
+      # Organize rgions data
+      regions = parse_regions data
+      # Get previsions for each region
+      regions.each do |name, values|
+        data = page.parser.css("div##{values['value']}")
+        previsions = region_previsions data
+        regions[name] = regions[name].merge({ 'previsions' => previsions })
+      end
+      regions
+    end
+
+    # Return a hash that contains xml data file content
     def load_data_library options={ file: nil, root: nil, code: nil, name: nil }
       doc = Nokogiri::XML(open(File.join Weather.root, options[:file]))
       root_elements = doc.root.xpath(options[:root])
@@ -51,35 +68,44 @@ module Windward
       data
     end
 
-    def load_data
+    # Get and parse webpage 'www.meteofrance.com/accueil'
+    def meteofrance_webpage
       a = Mechanize.new
       page = a.get('http://www.meteofrance.com/accueil')
       page.encoding = 'utf-8'
-      data  = page.parser.css("div.select-region")
+      page
+    end
+
+    # Return a hash for each region like { 'Alsace' => {'slug' => 'alsace', 'value' => 'REGI42' } }
+    def parse_regions data
       regions = Hash.new
-      data.css("option").each do |option|
-        if  option['data-type'] == "REG_FRANCE"
+      data.css('option').each do |option|
+        if  option['data-type'] == 'REG_FRANCE'
           name = option.content
           slug = option['data-slug']
           value = option['value']
-          regions[name] = { "slug" => slug, "value" => value }
+          regions[name] = { 'slug' => slug, 'value' => value }
         end
-      end
-      regions.each do |name, values|
-        data = page.parser.css("div##{values['value']}")
-        previsions = Hash.new
-        data.each do |datum|
-          temps = datum.css('span.picTemps').first.content.split(' - ').last.strip
-          temper = datum.css('span.temper').first.content.strip
-          department = @departments[datum['data-insee'][0..1]]
-          city = @cities[datum['data-insee'][0..4]]
-          previsions[department] = { "temps" => temps, "temper" => temper, "city" => city }
-        end
-        regions[name] = regions[name].merge({ "previsions" => previsions })
       end
       regions
     end
 
+    # Complete regions hash with previsions key like :
+    # { 'Alsace' =>
+    #   { 'slug' => 'alsace', 'value' => 'REGI42',
+    #     'previsions' => {'Rhin (Bas)' => {'temps'=>'Éclaircies', 'temper' => '10', 'city' => 'Strasbourg'}}
+    #   }
+    # }
+    def region_previsions data
+      previsions = Hash.new
+      data.each do |datum|
+        temps = datum.css('span.picTemps').first.content.split(' - ').last.strip
+        temper = datum.css('span.temper').first.content.strip
+        department = @departments[datum['data-insee'][0..1]]
+        city = @cities[datum['data-insee'][0..4]]
+        previsions[department] = { 'temps' => temps, 'temper' => temper, 'city' => city }
+      end
+      previsions
+    end
   end
-
 end
