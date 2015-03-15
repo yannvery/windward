@@ -1,6 +1,7 @@
 require 'windward/version'
 require 'mechanize'
 
+# Just a naming module
 module Windward
 
   # Instantiate an object to get meteo france previsions
