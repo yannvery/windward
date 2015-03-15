@@ -1,4 +1,4 @@
-require "windward/version"
+require 'windward/version'
 require 'mechanize'
 
 module Windward
@@ -20,7 +20,7 @@ module Windward
     end
 
     def previsions(name)
-      @regions[name]["previsions"]
+      @regions[name]['previsions']
     end
 
     def reload
@@ -34,11 +34,11 @@ module Windward
     private
 
     def load_departments_data
-      load_data_library({ file: "lib/data/regions.xml", root: "province", code: "code", name: "name_province" })
+      load_data_library({ file: 'lib/data/regions.xml', root: 'province', code: 'code', name: 'name_province' })
     end
 
     def load_cities_data
-      load_data_library({ file: "lib/data/cities.xml", root: "city", code: "zip_code", name: "name" })
+      load_data_library({ file: 'lib/data/cities.xml', root: 'city', code: 'zip_code', name: 'name' })
     end
 
     def load_regions_data
