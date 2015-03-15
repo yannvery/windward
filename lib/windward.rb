@@ -64,7 +64,7 @@ module Windward
           name = option.content
           slug = option['data-slug']
           value = option['value']
-          regions[name] = {"slug" => slug, "value" => value}
+          regions[name] = { "slug" => slug, "value" => value }
         end
       end
       regions.each do |name,values|
@@ -75,9 +75,9 @@ module Windward
           temper = datum.css('span.temper').first.content.strip
           department = @departments[datum['data-insee'][0..1]]
           city = @cities[datum['data-insee'][0..4]]
-          previsions[department] = {"temps" => temps, "temper" => temper, "city" => city}
+          previsions[department] = { "temps" => temps, "temper" => temper, "city" => city }
         end
-        regions[name] = regions[name].merge({"previsions" => previsions})
+        regions[name] = regions[name].merge({ "previsions" => previsions })
       end
       regions
     end
