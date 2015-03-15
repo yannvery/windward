@@ -13,7 +13,7 @@ RSpec.configure do |config|
   config.before(:each) do
     stub_request(:get, /www.meteofrance.com/).
       with(headers: { 'Accept'=>'*/*', 'User-Agent' => 'Ruby' }).
-      to_return(status: 200, body: "stubbed response", headers: {})
+      to_return(status: 200, body: 'stubbed response', headers: {})
   end
 end
 
