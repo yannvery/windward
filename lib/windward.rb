@@ -58,7 +58,7 @@ module Windward
     end
 
     # Return a hash that contains xml data file content
-    def load_data_library options={ file: nil, root: nil, code: nil, name: nil }
+    def load_data_library options = { file: nil, root: nil, code: nil, name: nil }
       doc = Nokogiri::XML(open(File.join Weather.root, options[:file]))
       root_elements = doc.root.xpath(options[:root])
       data = Hash.new
