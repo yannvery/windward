@@ -1,3 +1,6 @@
+require 'coveralls'
+Coveralls.wear!
+
 $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'rspec'
@@ -24,3 +27,4 @@ VCR.configure do |c|
   c.cassette_library_dir = 'spec/support/vcr_cassettes'
   c.configure_rspec_metadata!
 end
+
