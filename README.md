@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/yannvery/windward.svg?branch=master)](https://travis-ci.org/yannvery/windward)
 [![Coverage Status](https://coveralls.io/repos/yannvery/windward/badge.svg)](https://coveralls.io/r/yannvery/windward)
+[![Code Climate](https://codeclimate.com/github/yannvery/windward/badges/gpa.svg)](https://codeclimate.com/github/yannvery/windward)
+[![Test Coverage](https://codeclimate.com/github/yannvery/windward/badges/coverage.svg)](https://codeclimate.com/github/yannvery/windward)
 [![Gem Version](https://badge.fury.io/rb/windward.svg)](http://badge.fury.io/rb/windward)
 
 
