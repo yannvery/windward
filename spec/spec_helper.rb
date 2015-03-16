@@ -29,5 +29,6 @@ VCR.configure do |c|
   c.hook_into :webmock
   c.cassette_library_dir = 'spec/support/vcr_cassettes'
   c.configure_rspec_metadata!
+  c.ignore_hosts 'codeclimate.com'
 end
 
